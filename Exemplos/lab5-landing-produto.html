@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab HTML5</title>
+  <style>
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:Segoe UI,sans-serif;background:#090d16;padding:20px;display:flex;justify-content:center}.landing-page{background:#fff;max-width:680px;width:100%;border-radius:18px;overflow:hidden}.hero-topo{background:linear-gradient(135deg,#1e1b4b,#4338ca);color:#fff;padding:36px 24px;text-align:center}.tag-promo{display:inline-block;background:#fbbf24;color:#1e1b4b;font-size:.72rem;font-weight:800;padding:4px 12px;border-radius:20px}.btn-cta{display:inline-block;background:#fb923c;color:#0f172a;padding:12px 24px;border-radius:30px;text-decoration:none;font-weight:bold}.secoes-produto{padding:26px}.destaque-imagem img{width:100%;border-radius:12px}.card-checkout{background:#f0fdf4;border:2px solid #86efac;border-radius:12px;padding:20px;text-align:center}.btn-comprar{display:inline-block;background:#16a34a;color:#fff;padding:10px 22px;border-radius:8px;text-decoration:none}.rodape-simples{background:#f8fafc;padding:16px;text-align:center;font-size:.8rem}
+  </style>
+</head>
+<body>
+<div class="landing-page">
+  <header class="hero-topo">
+    <div class="tag-promo">Lançamento 2026</div>
+    <h1>DevPad Pro</h1>
+    <p>O teclado dos desenvolvedores.</p>
+    <a href="#comprar" class="btn-cta">Garantir &rarr;</a>
+  </header>
+  <main class="secoes-produto">
+    <section class="especificacoes">
+      <h2>Especificações</h2>
+      <ol>
+        <li>Alumínio aeronáutico</li>
+        <li>Tri-modo: USB-C, 2.4GHz, BT 5.3</li>
+        <li>Keycaps PBT</li>
+      </ol>
+    </section>
+    <figure class="destaque-imagem">
+      <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&h=280&q=80" alt="Teclado mecânico iluminado" loading="lazy">
+      <figcaption>Hardware minimalista.</figcaption>
+    </figure>
+    <section id="comprar" class="card-checkout">
+      <h3>Adquira agora</h3>
+      <p>De <del>R$ 790</del> por <strong><ins>R$ 549</ins></strong> no PIX.</p>
+      <a href="mailto:vendas@devpad.com" class="btn-comprar">Finalizar</a>
+    </section>
+  </main>
+  <footer class="rodape-simples"><p>&copy; 2026 DevPad</p></footer>
+</div>
+  <script>
+console.log("Landing carregada.");
+  </script>
+</body>
+</html>

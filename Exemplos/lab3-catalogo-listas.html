@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab HTML5</title>
+  <style>
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:Segoe UI,sans-serif;background:#0f172a;padding:24px;display:flex;justify-content:center}.catalogo-box{background:#fff;max-width:620px;width:100%;border-radius:16px;padding:26px}.catalogo-box h2{color:#c2410c;font-size:1.4rem}.modulo-lista{background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;padding:18px;margin:12px 0}.lista-letras{margin-left:24px;line-height:1.8;font-weight:600}.sublista{margin:6px 0 8px 20px;color:#64748b;list-style-type:circle}.lista-regressiva{margin-left:24px;line-height:2;font-weight:600}ins{color:#16a34a;text-decoration:none}del{color:#94a3b8;font-size:.85em}mark{background:#fef08a;padding:2px 6px;border-radius:4px;color:#854d0e}
+  </style>
+</head>
+<body>
+<div class="catalogo-box">
+  <header><h2>📦 Catálogo Técnico</h2></header>
+  <section class="modulo-lista">
+    <h3>Etapas de Montagem:</h3>
+    <ol type="A" start="5" class="lista-letras">
+      <li>Fixação da placa-mãe no chassi</li>
+      <li>Conexão dos cabos SATA
+        <ul class="sublista">
+          <li>Canal Primário (Slot A2)</li>
+          <li>Canal Secundário (Slot B2)</li>
+        </ul>
+      </li>
+    </ol>
+  </section>
+  <section class="modulo-lista">
+    <h3>Top Componentes:</h3>
+    <ol reversed class="lista-regressiva">
+      <li>Fonte Modular 750W &bull; <ins>R$ 499,00</ins> <del>R$ 620,00</del></li>
+      <li>Gabinete Airflow RGB &bull; <ins>R$ 380,00</ins></li>
+      <li>Processador 8-Core &bull; <mark>Campeão</mark></li>
+    </ol>
+  </section>
+</div>
+  <script>
+console.log("Catálogo carregado.");
+  </script>
+</body>
+</html>

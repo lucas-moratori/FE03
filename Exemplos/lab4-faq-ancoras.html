@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab HTML5</title>
+  <style>
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:Segoe UI,sans-serif;background:#0f172a;padding:24px;display:flex;justify-content:center}.faq-container{background:#fff;max-width:640px;width:100%;border-radius:16px;padding:28px}.indice-ancoras{background:#f8fafc;border:1px solid #e2e8f0;padding:12px;border-radius:8px;margin-bottom:20px}.indice-ancoras a{color:#0284c7;text-decoration:none;font-weight:bold}.faq-container h2{color:#c2410c;margin-bottom:16px}.faq-item{background:#f8fafc;border:2px solid #e2e8f0;border-radius:10px;margin-bottom:12px;padding:14px}.faq-item[open]{border-color:#ea580c;background:#fff7ed}summary{font-weight:bold;cursor:pointer}.btn-subir{font-size:.8rem;color:#64748b;text-decoration:none;font-weight:bold}
+  </style>
+</head>
+<body>
+<div class="faq-container" id="inicio-faq">
+  <nav class="indice-ancoras"><strong>Navegação Rápida:</strong> <a href="#pergunta-1">Dúvida 1</a> &bull; <a href="#pergunta-2">Dúvida 2</a> &bull; <a href="#pergunta-3">Dúvida 3</a></nav>
+  <h2>❓ FAQ HTML5</h2>
+  <details id="pergunta-1" class="faq-item" open>
+    <summary>O que são elementos de bloco e inline?</summary>
+    <p>Bloco ocupa toda a largura; inline ocupa só o conteúdo.</p>
+  </details>
+  <details id="pergunta-2" class="faq-item">
+    <summary>Por que a tag a com name é obsoleta?</summary>
+    <p>Use id em qualquer elemento de destino.</p>
+  </details>
+  <details id="pergunta-3" class="faq-item">
+    <summary>O que acontece sem alt na imagem?</summary>
+    <p>Leitores de tela não descrevem a imagem.</p>
+  </details>
+  <div style="text-align:center;margin-top:18px"><a href="#inicio-faq" class="btn-subir">&uarr; Voltar</a></div>
+</div>
+  <script>
+console.log("FAQ carregado.");
+  </script>
+</body>
+</html>
